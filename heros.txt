@@ -1,0 +1,107 @@
+barbarian
+bellena
+berserker
+black crow
+bombin' goblin
+boommeister
+chaos dragon
+child of light
+chronicler
+cursed hunter
+dark follower
+dark magister
+death archer
+death knight
+demon slayer
+don guapo
+dream witch
+elementalist
+ethereal guide
+femme fatale
+grim wolf
+grove guardian
+incinerator
+lightweaver
+lore weaver
+magmaroid
+mastercook
+necroduke
+night raven
+oath keeper
+pegasus
+petite devil
+prima donna
+prince of thieves
+rose knight
+sage of storms
+scarlet bolt
+sea squire
+shade
+shape shifter
+snail princess
+snow queen
+songstress of the sea
+soul forger
+steambot
+storm fox
+the big guy
+tracker
+trickster
+twilight priestess
+vengeful centaur
+watcher
+witch doll
+###
+barbarian
+bellena
+berserker
+black-crow
+bombin-goblin
+boommeister
+chaos-dragon
+child-of-light
+chronicler
+cursed-hunter
+dark-follower
+dark-magister
+death-archer
+death-knight
+demon-slayer
+don-guapo
+dream-witch
+elementalist
+ethereal-guide
+femme-fatale
+grim-wolf
+grove-guardian
+incinerator
+lightweaver
+lore-weaver
+magmaroid
+mastercook
+necroduke
+night-raven
+oath-keeper
+pegasus
+petite-devil
+prima-donna
+prince-of-thieves
+rose-knight
+sage-of-storms
+scarlet-bolt
+sea-squire
+shade
+shape-shifter
+snail-princess
+snow-queen
+songstress-of-the-sea
+soul-forger
+steambot
+storm-fox
+the-big-guy
+tracker
+trickster
+twilight-priestess
+vengeful-centaur
+watcher
+witch-doll
