@@ -22,7 +22,7 @@ exit
 # "incinerator, elementalist, storm fox, petite devil, twilight priestess"
 # 2 ftp:
 # "incinerator, bombin goblin, elementalist, snow queen, sage of storms"
-# p2p:
+# 2 p2p:
 # "elementalist, storm fox, twilight priestess, petite devil, incinerator"
 # 3 ftp:
 # "prima donna, incinerator, bombin goblin, elementalist, sage of storms"
