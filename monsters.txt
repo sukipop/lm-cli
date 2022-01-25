@@ -1,0 +1,46 @@
+Arctic Flipper
+Blackwing
+Bon Appeti
+Cottageroar
+Frostwing
+Gargantua
+Gawrilla
+Grim Reaper
+Gryphon
+Hardrox
+Hell Drider
+Hootclaw
+Jade Wyrm
+Mecha Trojan
+Mega Maggot
+Necrosis
+Noceros
+Queen Bee
+Saberfang
+Serpent Gladiator
+Snow Beast
+Terrorthorn
+Tidal Titan
+Voodoo Shaman
+#
+Arctic Flipper            Jade Wyrm
+Blackwing                 Mecha Trojan
+Bon Appeti                Mega Maggot
+Cottageroar               Necrosis
+Frostwing                 Noceros
+Gargantua                 Queen Bee
+Gawrilla                  Saberfang
+Grim Reaper               Serpent Gladiator
+Gryphon                   Snow Beast
+Hardrox                   Terrorthorn
+Hell Drider               Tidal Titan
+Hootclaw                  Voodoo Shaman
+#
+Arctic Flipper            Gryphon                   Noceros
+Blackwing                 Hardrox                   Queen Bee
+Bon Appeti                Hell Drider               Saberfang
+Cottageroar               Hootclaw                  Serpent Gladiator
+Frostwing                 Jade Wyrm                 Snow Beast
+Gargantua                 Mecha Trojan              Terrorthorn
+Gawrilla                  Mega Maggot               Tidal Titan
+Grim Reaper               Necrosis                  Voodoo Shaman
