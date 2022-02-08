@@ -153,25 +153,37 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 		fi
 	elif [ "$2" = -queen ] || [ "$2" = -bee ] || [ "$2" = -mque ] || [ "$2" = -mqb ] || [ "$2" = -qb ]; then
 		monster="queen bee"
+		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ] || [ "$3" = 4 ]; then
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, tracker"
+		elif [ "$3" = 5 ]; then
+			lineup="black crow, demon slayer, scarlet bolt, death archer, trickster"
+		fi
 	elif [ "$2" = -saberfang ] || [ "$2" = -msab ] || [ "$2" = -msf ] || [ "$2" = -saber ] || [ "$2" = -fang ] || [ "$2" = -sf ]; then
 		monster="saberfang"
+		lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 	elif [ "$2" = -serpent ] || [ "$2" = -gladiator ] || [ "$2" = -mser ] || [ "$2" = -serp ] || [ "$2" = -msg ] || [ "$2" = -glad ] || [ "$2" = -sg ]; then
 		monster="serpent gladiator"
+		lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 	elif [ "$2" = -snow ] || [ "$2" = -beast ] || [ "$2" = -msno ] || [ "$2" = -msb ] || [ "$2" = -sb ]; then
 		monster="snow beast"
+		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ] || [ "$3" = 4 ]; then
+			lineup="black crow, demon slayer, scarlet bolt, tracker, trickster"
+		elif [ "$3" = 5 ]; then
+			lineup="black crow, demon slayer, scarlet bolt, death archer, trickster"
+		fi
 	elif [ "$2" = -terrorthorn ] || [ "$2" = -mter ] || [ "$2" = -terror ] || [ "$2" = -thorn ] || [ "$2" = -mthorn ]; then
 		monster="terrorthorn"
-		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
-		elif [ "$3" = 4 ]; then
-			lineup="uu"
-		elif [ "$3" = 5 ]; then
-			lineup="uu"
-		fi
+		lineup="black crow, demon slayer, femme fatale, scarlet bolt, shade"
 	elif [ "$2" = -tidal ] || [ "$2" = -titan ] || [ "$2" = -mtid ] || [ "$2" = -mtt ] || [ "$2" = -tt ]; then
 		monster="tidal titan"
+		lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 	elif [ "$2" = -voodoo ] || [ "$2" = -shaman ] || [ "$2" = -mvoo ] || [ "$2" = -mvs ] || [ "$2" = -vs ]; then
 		monster="voodoo shaman"
+		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ] || [ "$3" = 4 ]; then
+			lineup="black crow, demon slayer, death archer, tracker, trickster"
+		elif [ "$3" = 5 ]; then
+			lineup="black crow, demon slayer, rose knight, tracker, trickster"
+		fi
 	else
 		echo "monster error"
 	fi
