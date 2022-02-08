@@ -187,4 +187,6 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 	else
 		echo "monster error"
 	fi
+	if [ ! "$3" =~ [1-5] ]; then
+		echo "monster level error"
 fi
