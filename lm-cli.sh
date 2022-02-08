@@ -50,3 +50,6 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 		echo "voodoo shaman"
 	else
 		echo "monster error"
+	fi
+fi
+	
