@@ -1,14 +1,4 @@
 #!/bin/bash
-# lords mobile command line information
-#
-# usage: lm-cli --hunt "monster tag" [lvl] [f2p OR p2p] [options]
-#
-# options: --help         show help
-#          -c             set clipboard
-#          -n or -N       use nicknames
-#
-echo "$0"-9: "$0 $1 $2 $3 $4 $5 $6 $7 $8 $9
-exit
 #-------------------------------------------------------------------------------------
 #        arctic flipper              -arctic -flipper -maf -marc -mart -af
 #-------------------------------------------------------------------------------------
