@@ -28,4 +28,10 @@ serpent gladiator       -serpent -gladiator -mser -serp -msg -glad -sg\
 snow beast              -snow -beast -msno -msb -sb\
 terrorthorn             -terrorthorn -mter -terror -thorn -mthorn\
 tidal titan             -tidal -titan -mtid -mtt -tt\
-voodoo shaman           -voodoo -shaman -mvoo -mvs -vd -vds -vs
+voodoo shaman           -voodoo -shaman -mvoo -mvs -vd -vds -vs\
+\
+# install
+$ git clone https://github.com/sukipop/lm-cli
+$ cd lm-cli
+$ chmod +x install.sh
+$ install.sh
