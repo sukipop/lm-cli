@@ -1,5 +1,5 @@
 # lm-cli
-lords mobile: command line information (unofficial)
+lords mobile - command line information
 
 # Monster Hunting
 usage: lm-cli --hunt -qb 5\
