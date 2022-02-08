@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 	if [ "$2" = -arctic] || [ "$2" = -flipper ] || [ "$2" = -maf ] || [ "$2" = -marc ] || [ "$2" = -mart ] || [ "$2" = -af ]; then
-		echo "arctic flipper" && monster="arctic flipper"
+		echo "arctic flipper"
 	elif [ "$2" = -blackwing ] || [ "$2" = -mbw ] || [ "$2" = -mblk ] || [ "$2" = -blkw ] || [ "$2" = -bw ]; then
 		echo "blackwing"
 	elif [ "$2" = -bon ] || [ "$2" = -appeti ] || [ "$2" = -mba ] || [ "$2" = -mbon ] || [ "$2" = -ba ]; then
@@ -52,4 +52,3 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 		echo "monster error"
 	fi
 fi
-	
