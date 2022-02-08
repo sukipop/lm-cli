@@ -13,8 +13,20 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 		fi
 	elif [ "$2" = -blackwing ] || [ "$2" = -mbw ] || [ "$2" = -mblk ] || [ "$2" = -blkw ] || [ "$2" = -bw ]; then
 		monster="blackwing"
+		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, tracker"
+		elif [ "$3" = 4 ]; then
+			lineup="black crow, demon slayer, femme fatale, rose knight, death archer"
+		elif [ "$3" = 5 ]; then
+			lineup="black crow, demon slayer, death knight, prima donna, death archer"
+		fi
 	elif [ "$2" = -bon ] || [ "$2" = -appeti ] || [ "$2" = -mba ] || [ "$2" = -mbon ] || [ "$2" = -ba ]; then
 		monster="bon appeti"
+		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ] || [ "$3" = 4 ]; then
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, tracker"
+		elif [ "$3" = 5 ]; then
+			lineup="black crow, demon slayer, scarlet bolt, death knight, trickster"
+		fi
 	elif [ "$2" = -cottageroar ] || [ "$2" = -mcot ] || [ "$2" = -mcott ] || [ "$2" = -mcr ] || [ "$2" = -cr ]; then
 		monster="cottageroar"
 	elif [ "$2" = -frostwing ] || [ "$2" = -mfw ] || [ "$2" = -mfro ] || [ "$2" = -fro ] || [ "$2" = -frost ] || [ "$2" = -fw ]; then
