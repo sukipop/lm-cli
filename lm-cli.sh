@@ -3,13 +3,14 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 	if [ "$2" = -arctic] || [ "$2" = -flipper ] || [ "$2" = -maf ] || [ "$2" = -marc ] || [ "$2" = -mart ] || [ "$2" = -af ]; then
 		monster="arctic flipper"
 		if [ "$3" = 1 ]; then
-			
+			lineup="bombin goblin, petite devil, sage of storms, incinerator, snow queen"
 		elif [ "$3" = 2 ]; then
-			
+			lineup="incinerator, bombin goblin, elementalist, snow queen, sage of storms"
 		elif [ "$3" = 3 ]; then
-			
+			lineup="prima donna, incinerator, bombin goblin, elementalist, sage of storms"
 		elif [ "$3" = 4 ] || [ "$3" = 5 ]; then
-			
+			lineup="child of light, prima donna, incinerator, elementalist, sage of storms"
+		fi
 	elif [ "$2" = -blackwing ] || [ "$2" = -mbw ] || [ "$2" = -mblk ] || [ "$2" = -blkw ] || [ "$2" = -bw ]; then
 		monster="blackwing"
 	elif [ "$2" = -bon ] || [ "$2" = -appeti ] || [ "$2" = -mba ] || [ "$2" = -mbon ] || [ "$2" = -ba ]; then
