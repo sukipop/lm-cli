@@ -145,11 +145,11 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 	elif [ "$2" = -noceros ] || [ "$2" = -mnor ] || [ "$2" = -noce ] || [ "$2" = -rhino ]; then
 		monster="noceros"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="witch doll, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, prima donna, bombin goblin"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, prima donna, child of light"
 		fi
 	elif [ "$2" = -queen ] || [ "$2" = -bee ] || [ "$2" = -mque ] || [ "$2" = -mqb ] || [ "$2" = -qb ]; then
 		monster="queen bee"
