@@ -2,9 +2,9 @@
 lords mobile: command line information (unofficial)
 
 # Monster Hunting
-arctic flipper          -arctic -flipper -maf -marc -mart -af
-blackwing               -blackwing -mbw -mblk -blkw
-bon appeti              -bon -appeti -mba -mbon
+arctic flipper          -arctic -flipper -maf -marc -mart -af \
+blackwing               -blackwing -mbw -mblk -blkw \
+bon appeti              -bon -appeti -mba -mbon \
 cottageroar             -cottageroar -mcot -mcott -mcr -cot
 frostwing               -frostwing -mfw -mfro -fro -frost
 gargantua               -gargantua -mgar -mgarg
