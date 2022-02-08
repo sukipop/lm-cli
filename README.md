@@ -33,5 +33,5 @@ voodoo shaman           -voodoo -shaman -mvoo -mvs -vd -vds -vs
 # install
 $ git clone https://github.com/sukipop/lm-cli \
 $ cd lm-cli \
-$ chmod +x install.sh \
-$ install.sh
+$ chmod +x lm-cli \
+$ mv lm-cli ~/usr/bin
