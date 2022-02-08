@@ -30,123 +30,117 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 	elif [ "$2" = -cottageroar ] || [ "$2" = -mcot ] || [ "$2" = -mcott ] || [ "$2" = -mcr ] || [ "$2" = -cr ]; then
 		monster="cottageroar"
 		if [ "$3" = 1 ] || [ "$3" = 2 ]; then
-			lineup="uu"
+			lineup="black crow, shade, demon slayer, tracker, scarlet bolt"
 		elif [ "$3" = 3 ] || [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="black crow, tracker, demon slayer, trickster, scarlet bolt"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="black crow, death knight, demon slayer, boommeister, scarlet bolt"
 		fi
 	elif [ "$2" = -frostwing ] || [ "$2" = -mfw ] || [ "$2" = -mfro ] || [ "$2" = -fro ] || [ "$2" = -frost ] || [ "$2" = -fw ]; then
 		monster="frosting"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ] || [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, death archer"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, death archer"
 		fi
 	elif [ "$2" = -gargantua ] || [ "$2" = -mgar ] || [ "$2" = -mgarg ] || [ "$2" = -garg ] || [ "$2" = -gar ]; then
 		monster="gargantua"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="child of light, incinerator, elementalist, snow queen, bombin goblin"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="child of light, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="child of light, incinerator, elementalist, snow queen, prima donna"
 		fi
 	elif [ "$2" = -gawrilla ] || [ "$2" = -tusker ] || [ "$2" = -mtus ] || [ "$2" = -mtusk ] || [ "$2" = -tusk ] || [ "$2" = -mgaw ] || [ "$2" = -mgawr ]; then
 		monster="tasker"
-		if [ "$3" = 1 ]; then
-			lineup="uu"
-		elif [ "$3" = 2 ]; then
-			lineup="uu"
+		if [ "$3" = 1 ] || [ "$3" = 2 ]; then
+			lineup="incinerator, bombin goblin, elementalist, snow queen, sage of storms"
 		elif [ "$3" = 3 ]; then
-			lineup="uu"
-		elif [ "$3" = 4 ]; then
-			lineup="uu"
-		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="prima donna, incinerator, bombin goblin, elementalist, sage of storms"
+		elif [ "$3" = 4 ] || [ "$3" = 5 ]; then
+			lineup="child of light, prima donna, incinerator, elementalist, sage of storms"
 		fi
 	elif [ "$2" = -grim ] || [ "$2" = -reaper ] || [ "$2" = -mgri ] || [ "$2" = -mgr ] || [ "$2" = -gr ]; then
 		monster="grim reaper"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, death archer"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, scarlet bolt, death knight, trickster"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, prima donna, death knight, death archer"
 		fi
 	elif [ "$2" = -gryphon ] || [ "$2" = -mgry ] || [ "$2" = -grif ]; then
 		monster="gryphon"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, scarlet bolt, tracker, femme fatale"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, scarlet bolt, tracker, night raven"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, scarlet bolt, tracker, night raven"
 		fi
 	elif [ "$2" = -hardrox ] || [ "$2" = -mhar ] || [ "$2" = -mhr ] || [ "$2" = -rox ] || [ "$2" = -hard ] || [ "$2" = -hr ]; then
 		monster="hardrox"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, snow queen, bombin goblin"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="prima donna, incinerator, elementalist, snow queen, bombin goblin"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="prima donna, incinerator, elementalist, snow queen, child of light"
 		fi
 	elif [ "$2" = -hell ] || [ "$2" = -drider ] || [ "$2" = -mhel ] || [ "$2" = -mhd ] || [ "$2" = -hd ]; then
 		monster="hell driver"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, tracker"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, femme fatale, scarlet bolt, death archer"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="black crow, demon slayer, death knight, death archer, tracker"
 		fi
 	elif [ "$2" = -hootclaw ] || [ "$2" = -mhoo ] || [ "$2" = -mhc ] || [ "$2" = -hc ] || [ "$2" = -hoot ]; then
 		monster="hootclaw"
 		if [ "$3" = 1 ] || [ "$3" = 2 ]; then
-			lineup="uu"
-		elif [ "$3" = 3 ]; then
-			lineup="uu"
-		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, snow queen, bombin goblin"
+		elif [ "$3" = 3 ] || [ "$3" = 4 ]; then
+			lineup="prima donna, incinerator, elementalist, snow queen, bombin goblin"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="prima donna, incinerator, elementalist, snow queen, child of light"
 		fi
 	elif [ "$2" = -jade ] || [ "$2" = -wyrm ] || [ "$2" = -mjad ] || [ "$2" = -mjw ] || [ "$2" = -worm ]; then
 		monster="jade warm"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, prima donna, child of light"
 		fi
 	elif [ "$2" = -mecha ] || [ "$2" = -trojan ] || [ "$2" = -mmec ] || [ "$2" = -mmt ] || [ "$2" = -mt ]; then
 		monster="mecha trojan"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 		fi
 	elif [ "$2" = -mega ] || [ "$2" = -maggot ] || [ "$2" = -mmeg ] || [ "$2" = -mmm ] || [ "$2" = -magg ] || [ "$2" = -mm ]; then
 		monster="mega maggot"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, prima donna, bombin goblin"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, prima donna, child of light"
 		fi
 	elif [ "$2" = -necrosis ] || [ "$2" = -mnec ] || [ "$2" = -dead ] || [ "$2" = -zombie ] || [ "$2" = -mzom ] || [ "$2" = -mzomb ] || [ "$2" = -neck ]; then
 		monster="necrosis"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
-			lineup="uu"
+			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
 		elif [ "$3" = 4 ]; then
-			lineup="uu"
+			lineup="incinerator, elementalist, bombin goblin prima donna, child of light"
 		elif [ "$3" = 5 ]; then
-			lineup="uu"
+			lineup="sage of storms, incinerator, elementalist, prima donna, child of light"
 		fi
 	elif [ "$2" = -noceros ] || [ "$2" = -mnor ] || [ "$2" = -noce ] || [ "$2" = -rhino ]; then
 		monster="noceros"
