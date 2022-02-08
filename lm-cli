@@ -1,6 +1,7 @@
 #!/bin/bash
+clear
 if [ "$1" = --hunt ] || [ "$1" = -h ]; then
-	if [ "$2" = -arctic] || [ "$2" = -flipper ] || [ "$2" = -maf ] || [ "$2" = -marc ] || [ "$2" = -mart ] || [ "$2" = -af ]; then
+	if [ "$2" = -arctic ] || [ "$2" = -flipper ] || [ "$2" = -maf ] || [ "$2" = -marc ] || [ "$2" = -mart ] || [ "$2" = -af ]; then
 		monster="arctic flipper"
 		if [ "$3" = 1 ]; then
 			lineup="bombin goblin, petite devil, sage of storms, incinerator, snow queen"
@@ -106,7 +107,7 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 		elif [ "$3" = 5 ]; then
 			lineup="prima donna, incinerator, elementalist, snow queen, child of light"
 		fi
-	elif [ "$2" = -jade ] || [ "$2" = -wyrm ] || [ "$2" = -mjad ] || [ "$2" = -mjw ] || [ "$2" = -worm ]; then
+	elif [ "$2" = -jade ] || [ "$2" = -wyrm ] || [ "$2" = -mjad ] || [ "$2" = -mjw ]  || [ "$2" = -jw ] || [ "$2" = -worm ]; then
 		monster="jade warm"
 		if [ "$3" = 1 ] || [ "$3" = 2 ] || [ "$3" = 3 ]; then
 			lineup="storm fox, incinerator, elementalist, petite devil, dream witch"
@@ -186,7 +187,8 @@ if [ "$1" = --hunt ] || [ "$1" = -h ]; then
 		fi
 	else
 		echo "monster error"
+		exit
 	fi
-	if [ ! "$3" =~ [1-5] ]; then
-		echo "monster level error"
 fi
+echo $monster - lv$3
+echo $lineup
