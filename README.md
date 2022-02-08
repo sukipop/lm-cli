@@ -2,6 +2,8 @@
 lords mobile: command line information (unofficial)
 
 # Monster Hunting
+usage: lm-cli --hunt -qb 5\
+\
 arctic flipper          -arctic -flipper -maf -marc -mart -af\
 blackwing               -blackwing -mbw -mblk -blkw\
 bon appeti              -bon -appeti -mba -mbon\
