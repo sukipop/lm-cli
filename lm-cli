@@ -172,7 +172,7 @@ elif [ "$1" = -tidal ] || [ "$1" = -titan ] || [ "$1" = -mtid ] || [ "$1" = -mtt
 	level3=("storm fox" "incinerator" "elementalist" "petite devil" "dream witch")
 	level4=("storm fox" "incinerator" "elementalist" "petite devil" "dream witch")
 	level5=("storm fox" "incinerator" "elementalist" "petite devil" "dream witch")
-elif [ "$1" = -voodoo ] || [ "$1" = -shaman ] || [ "$1" = -mvoo ] || [ "$1" = -mvs ] || [ "$1" = -vs ]; then
+elif [ "$1" = -voodoo ] || [ "$1" = -shaman ] || [ "$1" = -mvoo ] || [ "$1" = -mvs ] || [ "$1" = -vs ] || [ "$1" = -vd ] || [ "$1" = -vds ]; then
 	monster="voodoo shaman"
 	level1=("black crow" "demon slayer" "death archer" "tracker" "trickster")
 	level2=("black crow" "demon slayer" "death archer" "tracker" "trickster")
